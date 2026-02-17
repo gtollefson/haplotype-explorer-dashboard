@@ -9,6 +9,9 @@ haplotype_output/
 *.pdf
 *.png
 
+# Allow screenshots in resources
+!resources/*.png
+
 # OS
 .DS_Store
 Thumbs.db

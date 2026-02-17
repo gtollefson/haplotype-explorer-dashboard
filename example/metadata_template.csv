@@ -1,0 +1,4 @@
+seq_sample_id,location,date
+Sample_001,Region_A,2022-01
+Sample_002,Region_B,2022-02
+Sample_003,Region_A,2022-03

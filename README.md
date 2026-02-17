@@ -6,6 +6,8 @@ A standalone R tool for visualizing haplotype structure around a core allele und
 
 Use cases: identifying core haplotypes in drug-resistance loci, tracking haplotype diversity around selected variants, and exploring sample clustering by shared genotype structure.
 
+![Dashboard with demo data](resources/example_dash_display_demo_data.png)
+
 ---
 
 ## Quick Start
@@ -193,9 +195,11 @@ haplotype-tool/
     ├── haplotype_dashboard.R     # Shiny app
     ├── example/
     │   └── metadata_template.csv
-    └── demo_data/
-        ├── Demo_Sample_001.vcf.gz ... Demo_Sample_005.vcf.gz
-        └── demo_metadata.csv
+    ├── demo_data/
+    │   ├── Demo_Sample_001.vcf.gz ... Demo_Sample_005.vcf.gz
+    │   └── demo_metadata.csv
+    └── resources/
+        └── example_dash_display_demo_data.png
 ```
 
 ---
